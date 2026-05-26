@@ -1,1 +1,7 @@
+// Enable automatic Java toolchain downloads so Gradle can provision a matching JDK (e.g. Java 17)
+// This adds the default toolchain download repository (Foojay) used by Gradle toolchains.
+plugins {
+	id 'org.gradle.toolchains.foojay-resolver' version '0.5.0'
+}
+
 rootProject.name = 'pnc-segundo-parcial-veterinaria'
